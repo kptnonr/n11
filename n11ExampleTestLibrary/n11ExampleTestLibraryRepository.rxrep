@@ -1,0 +1,105 @@
+﻿<repository
+id="967d25dc-afa7-4edd-a399-63193f77f794"
+name="n11ExampleTestLibraryRepository"
+rxversion="8.1">
+	<codegen
+	classname="n11ExampleTestLibraryRepository"
+	namespace="n11ExampleTestLibrary">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="102885e7-1cd9-49b0-adc8-bbcf4721a61a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="9177b45d-1b57-4d6d-bc65-055f95bc9fa3"
+		isrooted="True"
+		name="GirişYapN11Com"
+		refpath="/dom[@domain='www.n11.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d84236d0-9abc-4c53-b481-448a76faaf4f"
+			name="Email"
+			refimgid="d17b4167-a25a-4c26-9faf-90edcde1d05b"
+			refpath="/dom[@domain='www.n11.com']//input[#'email']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.n11.com']//input[#'email']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="958dceb4-a1ab-4a2b-8209-ca3319d5910f"
+			name="LoginButton"
+			refimgid="7e755274-1a7e-458b-978c-db458d440529"
+			refpath="/dom[@domain='www.n11.com']//div[#'loginButton']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.n11.com']//div[#'loginButton']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c4cb70de-6191-404c-8243-e0d398489867"
+			name="CıkışYap"
+			refimgid="d3b3e180-f99a-4109-86e5-2d109d7077ea"
+			refpath="/dom[3]//header[#'header']/div/div/div[2]/div[2]/div[2]/div[2]/div/a[@innertext='Çıkış Yap']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.n11.com']//header[#'header']/div/div/div[2]/div[2]/div[2]//a[@innertext='&#199;&#305;k&#305;&#351; Yap']
+			</item>
+			<basepath>
+				/dom[@domain='www.n11.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="c49deefb-1bfb-432b-99e5-06f5fee2f038"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="a5a48924-5e96-45be-af14-ed1bd2075f08"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="n11ExampleTestLibrary"
+      id="1db49863-aa78-4e67-b918-39639a3171b2"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="n11ExampleTestLibrary"
+      id="1db49863-aa78-4e67-b918-39639a3171b2"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="n11ExampleTestRepository"
+id="247b768c-3679-4236-8299-53badf6083a7"
+rxversion="8.1">
+  <codegen
+  classname="n11ExampleTestRepository"
+  namespace="n11ExampleTest"/>
+  <rootfolder
+  name="Root"
+  id="2af8631f-b897-4940-9f77-268ce15218d4"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
