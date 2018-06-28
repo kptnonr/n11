@@ -139,6 +139,9 @@
       <repoid>247b768c-3679-4236-8299-53badf6083a7</repoid>
       <reporootid>2af8631f-b897-4940-9f77-268ce15218d4</reporootid>
     </None>
+    <None Include="testResult.xml">
+      <id>9ad93079-214d-46b7-9f0f-d9bf9766f27a</id>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="n11ExampleTest.rxtmg">
