@@ -1,0 +1,7 @@
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\n11ExampleTest\n11ExampleTestLibrary\bin\Debug\n11ExampleTestLibrary.rxtmg
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\n11ExampleTest\n11ExampleTestLibrary\bin\Debug\n11ExampleTestLibrary.dll
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\n11ExampleTest\n11ExampleTestLibrary\bin\Debug\n11ExampleTestLibrary.pdb
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\n11ExampleTest\n11ExampleTestLibrary\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\n11ExampleTest\n11ExampleTestLibrary\obj\x86\Debug\n11ExampleTestLibrary.csprojResolveAssemblyReference.cache
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\n11ExampleTest\n11ExampleTestLibrary\obj\x86\Debug\n11ExampleTestLibrary.dll
+C:\Users\onuru\Documents\Ranorex\RanorexStudio Projects\n11ExampleTest\n11ExampleTestLibrary\obj\x86\Debug\n11ExampleTestLibrary.pdb
