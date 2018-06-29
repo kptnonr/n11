@@ -79,14 +79,6 @@ namespace n11ExampleTestLibrary
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Dropdown' at 244;19.", repo.Dropdown.SelfInfo, new RecordItemIndex(0));
-            repo.Dropdown.Self.Click("244;19");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'GirişYapN11Com.CıkışYap' at 37;15.", repo.GirişYapN11Com.CıkışYapInfo, new RecordItemIndex(1));
-            repo.GirişYapN11Com.CıkışYap.Click("37;15");
-            Delay.Milliseconds(200);
-            
         }
 
 #region Image Feature Data

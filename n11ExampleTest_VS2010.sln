@@ -2,12 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # Ranorex Studio 8.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "n11ExampleTest", "n11ExampleTest\n11ExampleTest.csproj", "{CDD8AFA8-E47C-4B46-AACC-9BBBB7B6511E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43FAF6DB-616E-477B-B3D8-E0D28D06A399}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "n11ExampleTest", "n11ExampleTest\n11ExampleTest.csproj", "{CDD8AFA8-E47C-4B46-AACC-9BBBB7B6511E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "n11ExampleTestLibrary", "n11ExampleTestLibrary\n11ExampleTestLibrary.csproj", "{42769E00-E471-4194-9E7B-080CE0297E14}"
 EndProject

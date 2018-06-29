@@ -28,7 +28,6 @@ namespace n11ExampleTestLibrary
     {
         static n11ExampleTestLibraryRepository instance = new n11ExampleTestLibraryRepository();
         n11ExampleTestLibraryRepositoryFolders.GirişYapN11ComAppFolder _girişyapn11com;
-        n11ExampleTestLibraryRepositoryFolders.DropdownAppFolder _dropdown;
 
         /// <summary>
         /// Gets the singleton class instance representing the n11ExampleTestLibraryRepository element repository.
@@ -46,7 +45,6 @@ namespace n11ExampleTestLibrary
             : base("n11ExampleTestLibraryRepository", "/", null, 0, false, "102885e7-1cd9-49b0-adc8-bbcf4721a61a", ".\\RepositoryImages\\n11ExampleTestLibraryRepository102885e7.rximgres")
         {
             _girişyapn11com = new n11ExampleTestLibraryRepositoryFolders.GirişYapN11ComAppFolder(this);
-            _dropdown = new n11ExampleTestLibraryRepositoryFolders.DropdownAppFolder(this);
         }
 
 #region Variables
@@ -73,15 +71,6 @@ namespace n11ExampleTestLibrary
         {
             get { return _girişyapn11com; }
         }
-
-        /// <summary>
-        /// The Dropdown folder.
-        /// </summary>
-        [RepositoryFolder("c49deefb-1bfb-432b-99e5-06f5fee2f038")]
-        public virtual n11ExampleTestLibraryRepositoryFolders.DropdownAppFolder Dropdown
-        {
-            get { return _dropdown; }
-        }
     }
 
     /// <summary>
@@ -99,6 +88,8 @@ namespace n11ExampleTestLibrary
             RepoItemInfo _emailInfo;
             RepoItemInfo _loginbuttonInfo;
             RepoItemInfo _cıkışyapInfo;
+            RepoItemInfo _testInfo;
+            RepoItemInfo _sueperfırsatlarInfo;
 
             /// <summary>
             /// Creates a new GirişYapN11Com  folder.
@@ -109,6 +100,8 @@ namespace n11ExampleTestLibrary
                 _emailInfo = new RepoItemInfo(this, "Email", ".//input[#'email']", 30000, null, "d84236d0-9abc-4c53-b481-448a76faaf4f");
                 _loginbuttonInfo = new RepoItemInfo(this, "LoginButton", ".//div[#'loginButton']", 30000, null, "958dceb4-a1ab-4a2b-8209-ca3319d5910f");
                 _cıkışyapInfo = new RepoItemInfo(this, "CıkışYap", ".//header[#'header']/div/div/div[2]/div[2]/div[2]//a[@innertext='Çıkış Yap']", 30000, null, "c4cb70de-6191-404c-8243-e0d398489867");
+                _testInfo = new RepoItemInfo(this, "test", "element", 30000, null, "a48aafda-458b-4710-8e8d-3adaece77e56");
+                _sueperfırsatlarInfo = new RepoItemInfo(this, "SueperFırsatlar", ".//header[#'header']/div/div/div[3]/nav/ul/?/?/a[@innertext='Süper Fırsatlar']", 30000, null, "233f819c-20a6-452d-9ed3-dab1d9ab57c9");
             }
 
             /// <summary>
@@ -206,44 +199,52 @@ namespace n11ExampleTestLibrary
                     return _cıkışyapInfo;
                 }
             }
-        }
-
-        /// <summary>
-        /// The DropdownAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("c49deefb-1bfb-432b-99e5-06f5fee2f038")]
-        public partial class DropdownAppFolder : RepoGenBaseFolder
-        {
 
             /// <summary>
-            /// Creates a new Dropdown  folder.
+            /// The test item.
             /// </summary>
-            public DropdownAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Dropdown", "/container[@caption='dropdown']", parentFolder, 30000, null, true, "c49deefb-1bfb-432b-99e5-06f5fee2f038", "")
-            {
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("c49deefb-1bfb-432b-99e5-06f5fee2f038")]
-            public virtual Ranorex.Container Self
+            [RepositoryItem("a48aafda-458b-4710-8e8d-3adaece77e56")]
+            public virtual Ranorex.Unknown test
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
+                    return _testInfo.CreateAdapter<Ranorex.Unknown>(true);
                 }
             }
 
             /// <summary>
-            /// The Self item info.
+            /// The test item info.
             /// </summary>
-            [RepositoryItemInfo("c49deefb-1bfb-432b-99e5-06f5fee2f038")]
-            public virtual RepoItemInfo SelfInfo
+            [RepositoryItemInfo("a48aafda-458b-4710-8e8d-3adaece77e56")]
+            public virtual RepoItemInfo testInfo
             {
                 get
                 {
-                    return _selfInfo;
+                    return _testInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SueperFırsatlar item.
+            /// </summary>
+            [RepositoryItem("233f819c-20a6-452d-9ed3-dab1d9ab57c9")]
+            public virtual Ranorex.ATag SueperFırsatlar
+            {
+                get
+                {
+                    return _sueperfırsatlarInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SueperFırsatlar item info.
+            /// </summary>
+            [RepositoryItemInfo("233f819c-20a6-452d-9ed3-dab1d9ab57c9")]
+            public virtual RepoItemInfo SueperFırsatlarInfo
+            {
+                get
+                {
+                    return _sueperfırsatlarInfo;
                 }
             }
         }

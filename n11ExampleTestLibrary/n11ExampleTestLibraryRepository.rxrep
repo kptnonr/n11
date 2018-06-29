@@ -52,6 +52,23 @@ rxversion="8.1">
 			searchtimeout="30000ms">
 				/dom[@domain='www.n11.com']//header[#'header']/div/div/div[2]/div[2]/div[2]//a[@innertext='&#199;&#305;k&#305;&#351; Yap']
 			</item>
+			<item
+			capname="unknown"
+			id="a48aafda-458b-4710-8e8d-3adaece77e56"
+			name="test"
+			searchtimeout="30000ms">
+				/dom[@domain='www.n11.com']/element
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="233f819c-20a6-452d-9ed3-dab1d9ab57c9"
+			name="SueperFırsatlar"
+			refimgid="1c95bca3-66d8-449e-928b-84656df3bf35"
+			refpath="/dom[@domain='www.n11.com' and @caption='Zincir Kupon Kampanyası - 7 Farklı Kupon - n11.com']//header[#'header']/div/div/div[3]/nav/ul/li[1]/a[@innertext='Süper Fırsatlar']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.n11.com']//header[#'header']/div/div/div[3]/nav/ul/?/?/a[@innertext='S&#252;per F&#305;rsatlar']
+			</item>
 			<basepath>
 				/dom[@domain='www.n11.com']
 			</basepath>
@@ -69,32 +86,6 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-			</icon>
-		</appfolder>
-		<appfolder
-		addcaps="container"
-		capname="container"
-		id="c49deefb-1bfb-432b-99e5-06f5fee2f038"
-		isrooted="True"
-		name="Dropdown"
-		refimgid="a5a48924-5e96-45be-af14-ed1bd2075f08"
-		refpath="/container[@caption='dropdown']"
-		searchtimeout="30000ms"
-		usecache="True">
-			<basepath>
-				/container[@caption='dropdown']
-			</basepath>
-			<icon>
-				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
-AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
-dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
-kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
-LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
-uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
-PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
-GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
-TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
-7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>
